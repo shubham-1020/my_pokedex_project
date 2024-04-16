@@ -8,12 +8,13 @@
 .pokemon-details-name{
     font-size: xx-large;
     color: black;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     /* letter-spacing: 1rem; */
 }
 .pokemon-details-name > span{
     letter-spacing: 1rem;
     text-transform: capitalize;
+    margin-top: 1rem;
 }
 
 .pokemon-details-types{
@@ -32,5 +33,11 @@
 
 .pokemon-details-img{
     margin: 2rem;
-    max-height: 400px;
+    min-height: 320px;
+    transition: transform 0.3s ease;
+    margin: 100px;
+}
+.pokemon-details-img:hover{
+    transform: scale(1.2);
+    box-shadow: inset;
 }
